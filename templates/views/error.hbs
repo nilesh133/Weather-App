@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Weather Website</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #err-num {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 7rem;
+        color: rgb(29, 161, 242);
+        margin: 0;
+    }
+
+    #err-heading {
+        margin: 1rem 0.5rem 3rem 0.5rem;
+    }
+
+    #err-btn {
+        border: none;
+        outline: none;
+        background-color: rgb(29, 161, 242);
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 1.5rem;
+        box-shadow: 5px 5px 8px black;
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <h1 id="err-num">404</h1>
+    <h1 id="err-heading">The requested page was not founded</h1>
+    <a href="/" id="err-btn">Home</a>
+</body>
+
+</html>

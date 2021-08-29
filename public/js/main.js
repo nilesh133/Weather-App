@@ -49,8 +49,8 @@ const getTemperature = async (event) => {
                 temp_status_name.innerHTML = temp_status_val;
             }
         }
-        catch{
-            alert("Enter the correct city name");
+        catch(err){
+            console.log(err);
             city_country.innerText = "Enter the correct city name";
         }
     }
